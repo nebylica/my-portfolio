@@ -1,3 +1,8 @@
+import { FaLinkedin } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+
 
 function Contacts() {
     return (
@@ -15,16 +20,16 @@ function Contacts() {
                 <span className="tag">&lt;follow </span>
                 <div>
                     <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/viktorija-nebylica-4b2874151/">
-                        <i className="fab fa-linkedin"> </i>
+                        <FaLinkedin />
                     </a>
                     <a target='_blank' rel="noreferrer" href="https://www.instagram.com/viktorijaneb/">
-                        <i className="fab fa-instagram"> </i>
+                        <FaInstagram />
                     </a>
                     <a target='_blank' rel="noreferrer" href="https://www.facebook.com/vika.niam.7">
-                        <i className="fab fa-facebook-square"> </i>
+                        <FaFacebookSquare />
                     </a>
                     <a target='_blank' rel="noreferrer" href="https://github.com/nebylica">
-                        <i className="fab fa-github"> </i>
+                        <FaGithub />
                     </a>
                 </div>
                 <span className="tag"> /&gt;</span>

@@ -17,15 +17,15 @@ function App() {
             <div className='d-flex'>
                 <Sidebar />
                 <Switch>
-                    <Route exact path='/'>
+                    <Route exact path='/my-portfolio'>
                         <About />
                     </Route>
 
-                    <Route path='/experience'>
+                    <Route path='/my-portfolio/experience'>
                         <Experience />
                     </Route>
 
-                    <Route path='/portfolio'>
+                    <Route path='/my-portfolio/portfolio'>
                         <Portfolio />
                     </Route>
                 </Switch>
