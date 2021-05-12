@@ -7,7 +7,10 @@
     margin-left: 100px;
     height: 300px;
     width: 300px;
-    -webkit-animation: rotateSphere 10s linear infinite;
+    -webkit-animation-name: rotateSphere;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation: rotateSphere 10s linear infinite;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -346,6 +349,13 @@
     100% {
         -webkit-transform: rotate3d(0, 0, 0, 360deg);
         transform: rotate3d(0, 0, 0, 360deg);
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .sphere {
+        margin: 100px 0;
     }
 }
 

@@ -68,7 +68,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 70px;
   z-index: 3;
   animation: titleSlide 1s;
 }
@@ -97,6 +97,82 @@ a {
   background-color: #D9D8D7;
   position: relative;
   z-index: 5;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav a {
+  margin: 10px 0;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #0D0D0D;
+}
+
+.icons {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.icons a {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+/*MobSidebar*/
+
+.sideMenu{
+  margin: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.sideMenu div {
+  width: 30px;
+  height: 5px;
+  margin: 5px;
+  background-color: #262625;
+}
+
+.mobSidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 300px;
+  min-height: 100vh;
+  padding: 0 30px;
+  background-color: #D9D8D7;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  animation: slide 1s;
+}
+
+@keyframes slide {
+  from{
+    transform: translateX(300px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+.closeSidebar{
+  margin: 20px;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
 }
 
 .nav {
@@ -213,7 +289,7 @@ a {
   height: 100%;
   position: absolute;
   opacity: 0.8;
-  animation: fade 2s;
+  animation: fade 1s;
 }
 
 @keyframes fade {
@@ -248,7 +324,7 @@ a {
   width: 120px;
   position: absolute;
   top: 10px;
-  left: 15px;
+  left: 10px;
   z-index: 3;
   transition: 0.3s ease;
 }
@@ -267,4 +343,65 @@ a {
 .experience {
   width: 400px;
   line-height: 30px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  .portfolioContainer {
+    width: 100%;
+  }
+
+  .element {
+    bottom: -350px;
+    left: 400px;
+  }
+
+  .photo {
+    bottom: -300px;
+    left: 600px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .portfolioBox {
+    grid-template: 150px / 2fr 1fr 2fr;
+  }
+
+  .element2 {
+    display: none;
+  }
+
+  .experienceContainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px 50px 50px;
+  }
+
+  .experience {
+    width: 300px;
+  }
+
+  .letter {
+    top: 330px;
+    left: 0;
+  }
+
+  .element {
+    width: 300px;
+    height: 30px;
+    bottom: -180px;
+    left: 100px;
+  }
+
+  .photo {
+    width: 200px;
+    height: 250px;
+    bottom: -150px;
+    left: 220px;
+  }
+
 }

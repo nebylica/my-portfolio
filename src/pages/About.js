@@ -31,7 +31,6 @@ function About() {
                     Hi,<br/>
                     {typingText}
                 </p>
-
             </div>
 
             <div className='photo'> </div>
