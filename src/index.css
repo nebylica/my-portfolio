@@ -203,6 +203,11 @@ a {
 /*About*/
 
 .aboutContainer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
 
@@ -215,8 +220,8 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  top: 100px;
-  left: 250px;
+  top: 0;
+  left: 20%;
   line-height: 30px;
 }
 
@@ -225,8 +230,8 @@ a {
   height: 50px;
   background-color: #262625;
   position: absolute;
-  bottom: 100px;
-  left: 400px;
+  bottom: 20px;
+  left: 30%;
 }
 
 .photo {
@@ -237,8 +242,8 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 150px;
-  left: 600px;
+  bottom: 70px;
+  left: 53%;
 }
 
 /*Portfolio*/
@@ -321,12 +326,13 @@ a {
 }
 
 .btnName {
-  width: 120px;
+  /*width: 120px;*/
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 15px;
   z-index: 3;
   transition: 0.3s ease;
+  white-space: nowrap;
 }
 
 .btnName:hover {
@@ -337,6 +343,8 @@ a {
 
 .experienceContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 50px 50px 100px;
 }
 
@@ -353,16 +361,6 @@ a {
   .portfolioContainer {
     width: 100%;
   }
-
-  .element {
-    bottom: -350px;
-    left: 400px;
-  }
-
-  .photo {
-    bottom: -300px;
-    left: 600px;
-  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -377,7 +375,6 @@ a {
 
   .experienceContainer {
     flex-direction: column;
-    align-items: center;
     margin: 0 50px 50px 50px;
   }
 
@@ -386,22 +383,22 @@ a {
   }
 
   .letter {
-    top: 330px;
+    top: 70px;
     left: 0;
   }
 
   .element {
     width: 300px;
     height: 30px;
-    bottom: -180px;
-    left: 100px;
+    top: 100px;
+    left: 30%;
   }
 
   .photo {
-    width: 200px;
-    height: 250px;
-    bottom: -150px;
-    left: 220px;
+    width: 150px;
+    height: 200px;
+    top: -100px;
+    left: 60%;
   }
 
 }

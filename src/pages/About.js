@@ -22,19 +22,22 @@ function About() {
 
 
     return (
-        <div className='aboutContainer'>
+        <div style={{width: '100%'}}>
 
             <Title name='About me' />
 
-            <div className='letter'>
-                <p className='line-1 anim-typewriter'>
-                    Hi,<br/>
-                    {typingText}
-                </p>
+            <div className='aboutContainer'>
+                <div className='letter'>
+                    <p className='line-1 anim-typewriter'>
+                        Hi,<br/>
+                        {typingText}
+                    </p>
+                </div>
+
+                <div className='photo'> </div>
+                <div className='element'> </div>
             </div>
 
-            <div className='photo'> </div>
-            <div className='element'> </div>
         </div>
     );
 }
