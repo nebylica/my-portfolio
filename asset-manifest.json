@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d516f0ea.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.6b1a33ff.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.6b1a33ff.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.79003973.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.79003973.js.map",
-    "static/js/2.74defb7b.chunk.js": "/my-portfolio/static/js/2.74defb7b.chunk.js",
-    "static/js/2.74defb7b.chunk.js.map": "/my-portfolio/static/js/2.74defb7b.chunk.js.map",
-    "static/js/3.e29ec271.chunk.js": "/my-portfolio/static/js/3.e29ec271.chunk.js",
-    "static/js/3.e29ec271.chunk.js.map": "/my-portfolio/static/js/3.e29ec271.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.fabb59fd.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.1b20e466.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.1b20e466.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.967f3f94.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.967f3f94.js.map",
+    "static/js/2.023e6a75.chunk.js": "/my-portfolio/static/js/2.023e6a75.chunk.js",
+    "static/js/2.023e6a75.chunk.js.map": "/my-portfolio/static/js/2.023e6a75.chunk.js.map",
+    "static/js/3.7b0883b6.chunk.js": "/my-portfolio/static/js/3.7b0883b6.chunk.js",
+    "static/js/3.7b0883b6.chunk.js.map": "/my-portfolio/static/js/3.7b0883b6.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.d516f0ea.chunk.css.map": "/my-portfolio/static/css/main.d516f0ea.chunk.css.map",
-    "static/js/2.74defb7b.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.74defb7b.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/my-portfolio/static/media/photo.c1f8bc5d.png"
+    "static/css/main.fabb59fd.chunk.css.map": "/my-portfolio/static/css/main.fabb59fd.chunk.css.map",
+    "static/js/2.023e6a75.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.023e6a75.chunk.js.LICENSE.txt",
+    "static/media/blackJack.49a4b5ac.png": "/my-portfolio/static/media/blackJack.49a4b5ac.png",
+    "static/media/christmasWeb.23680747.png": "/my-portfolio/static/media/christmasWeb.23680747.png",
+    "static/media/index.css": "/my-portfolio/static/media/photo.c1f8bc5d.png",
+    "static/media/paperGame.f183d783.png": "/my-portfolio/static/media/paperGame.f183d783.png",
+    "static/media/recipes.a697fe6a.png": "/my-portfolio/static/media/recipes.a697fe6a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.79003973.js",
-    "static/js/2.74defb7b.chunk.js",
-    "static/css/main.d516f0ea.chunk.css",
-    "static/js/main.6b1a33ff.chunk.js"
+    "static/js/runtime-main.967f3f94.js",
+    "static/js/2.023e6a75.chunk.js",
+    "static/css/main.fabb59fd.chunk.css",
+    "static/js/main.1b20e466.chunk.js"
   ]
 }
