@@ -1,4 +1,4 @@
-// import '../saphereStyle.css'
+import '../saphereStyle.css'
 
 function WordsSphere() {
 

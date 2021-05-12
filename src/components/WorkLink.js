@@ -1,17 +1,23 @@
+import {useState} from 'react'
 
-function WorkLink({name, programs, href}) {
+function WorkLink({name, programs, href, image}) {
+
+    const[trigger, setTrigger] = useState(false)
+
     return (
-        <div className='portfolioBox'>
+        <div className='portfolioBox'
+             onMouseOver={() => setTrigger(true)}
+             onMouseLeave={() => setTrigger(false)}>
 
             <div className='element2'> </div>
             <div className='projectTitle'>{name}</div>
             <div className='tag'>{programs}</div>
 
             <div className='btnBoxBg'>
-                {/*<div className='bg'></div>*/}
+                {trigger && <img className='webImage' src={image} alt=""/>}
                 <a href={href} className='btnBox'>
                     <div className='projectBtn'> </div>
-                    <span className='btnName'>view project</span>
+                    <span className='btnName' >view project</span>
                 </a>
             </div>
         </div>
