@@ -1,13 +1,267 @@
+/*!* Color Theme Swatches in Hex *!*/
+/*.CONNECT-foundation-1-hex { color: #262625; }*/
+/*.CONNECT-foundation-2-hex { color: #F2F2F0; }*/
+/*.CONNECT-foundation-3-hex { color: #D9D8D7; }*/
+/*.CONNECT-foundation-4-hex { color: #BFBFBD; }*/
+/*.CONNECT-foundation-5-hex { color: #0D0D0D; }*/
+
+/*Fonts*/
+/*font-family: 'Cormorant';*/
+/*font-style: normal;*/
+/*font-weight: 300;*/
+
+/*font-family: 'Work Sans';*/
+/*font-style: normal;*/
+/*font-weight: 300;*/
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  max-width: 100vw;
+  max-height: 100vw;
+  background-color: #F2F2F0;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #262625;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: #262625;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.tag {
+  color: #ababa8;
+  font-size: 14px;
+}
+
+/*Titles*/
+
+.title {
+  margin: 10px 0;
+  font-family: 'Cormorant', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #0D0D0D;
+}
+
+.title-big {
+  font-family: 'Cormorant', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  color: #0D0D0D;
+}
+
+.title-box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  z-index: 3;
+  animation: titleSlide 1s;
+}
+
+@keyframes titleSlide {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+
+/*Sidebar*/
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 18%;
+  min-height: 100vh;
+  padding: 0 30px;
+  background-color: #D9D8D7;
+  position: relative;
+  z-index: 5;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav a {
+  margin: 10px 0;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #0D0D0D;
+}
+
+.icons {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.icons i {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+/*About*/
+
+.aboutContainer {
+  position: relative;
+}
+
+.letter {
+  width: 300px;
+  height: 400px;
+  padding: 50px;
+  background-image: url("./images/letter-bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  line-height: 30px;
+}
+
+.element {
+  width: 600px;
+  height: 50px;
+  background-color: #262625;
+  position: absolute;
+  bottom: 100px;
+  left: 400px;
+}
+
+.photo {
+  width: 250px;
+  height: 300px;
+  background-image: url("./images/photo.png");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 150px;
+  left: 600px;
+}
+
+/*Portfolio*/
+
+.portfolioContainer {
+  width: 82%;
+  max-height: 100vh;
+  overflow: scroll;
+}
+
+.portfolioBox {
+  display: grid;
+  grid-template: 150px / 1fr 2fr 2fr 2fr;
+  align-items: center;
+  width: 100%;
+  background-color: #D9D8D7;
+  border-bottom: 1px solid #F2F2F0;
+  transition: 0.3s ease;
+}
+
+.portfolioBox:hover {
+  background-color: #F2F2F0;
+}
+
+.element2 {
+  width: 100%;
+  height: 2px;
+  background-color: #262625;
+}
+
+.projectTitle {
+  margin-left: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.btnBoxBg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s ease;
+}
+
+/*.bg {*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  background-image: url("./images/recipes.png");*/
+/*  background-position: center;*/
+/*  background-size: cover;*/
+/*  background-repeat: no-repeat;*/
+/*  opacity: 0;*/
+/*  transition: 0.6s ease;*/
+/*}*/
+
+.btnBox {
+  position: relative;
+  z-index: 2;
+}
+
+.projectBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #F2F2F0;
+  transition: 0.4s ease;
+}
+
+.btnBox:hover .projectBtn{
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #D9D8D7;
+}
+
+.btnName {
+  width: 120px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 3;
+  transition: 0.3s ease;
+}
+
+.btnName:hover {
+  color: #0D0D0D;
+}
+
+/* Experience */
+
+.experienceContainer {
+  display: flex;
+  margin: 0 50px 50px 100px;
+}
+
+.experience {
+  width: 400px;
+  line-height: 30px;
+}
+
+
