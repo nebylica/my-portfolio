@@ -15,7 +15,7 @@ function WorkLink({name, programs, href, image}) {
 
             <div className='btnBoxBg'>
                 {trigger && <img className='webImage' src={image} alt=""/>}
-                <a href={href} className='btnBox'>
+                <a href={href} target='_blank' className='btnBox'>
                     <div className='projectBtn'> </div>
                     <span className='btnName' >view project</span>
                 </a>

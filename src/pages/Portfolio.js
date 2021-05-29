@@ -10,10 +10,10 @@ import christmasWeb from '../images/christmasWeb.png';
 function Portfolio() {
 
     const worksData = [
-        {name: 'recipes website', programs: 'CSS, JS, React, Node.js, MongoDb', href: '#', image: recipes},
-        {name: 'black jack', programs: 'HTML, CSS, JS, Node.js', href: '#', image: blackJack},
-        {name: 'paper rock scissors', programs: 'HTML, CSS, JS, Node.js, Socket.io', href: '#', image: paperGame},
-        {name: 'christmas mood', programs: 'HTML, CSS', href: '#', image: christmasWeb},
+        {name: 'recipes website', programs: 'CSS, JS, React, Node.js, MongoDb', href: 'https://github.com/nebylica/recipes.git', image: recipes},
+        {name: 'black jack', programs: 'HTML, CSS, JS', href: 'https://github.com/nebylica/blackJack.git', image: blackJack},
+        {name: 'paper rock scissors', programs: 'HTML, CSS, JS, Node.js, Socket.io', href: 'https://github.com/nebylica/scissorsPaperRock.git', image: paperGame},
+        {name: 'christmas mood', programs: 'HTML, CSS', href: 'https://github.com/nebylica/christmasMood.git', image: christmasWeb},
     ]
 
     return (

@@ -1,19 +1,3 @@
-/*!* Color Theme Swatches in Hex *!*/
-/*.CONNECT-foundation-1-hex { color: #262625; }*/
-/*.CONNECT-foundation-2-hex { color: #F2F2F0; }*/
-/*.CONNECT-foundation-3-hex { color: #D9D8D7; }*/
-/*.CONNECT-foundation-4-hex { color: #BFBFBD; }*/
-/*.CONNECT-foundation-5-hex { color: #0D0D0D; }*/
-
-/*Fonts*/
-/*font-family: 'Cormorant';*/
-/*font-style: normal;*/
-/*font-weight: 300;*/
-
-/*font-family: 'Work Sans';*/
-/*font-style: normal;*/
-/*font-weight: 300;*/
-
 
 body {
   margin: 0;
@@ -326,7 +310,6 @@ a {
 }
 
 .btnName {
-  /*width: 120px;*/
   position: absolute;
   top: 10px;
   left: 15px;
